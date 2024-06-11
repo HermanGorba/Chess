@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Values">
+      <UniqueIdentifier>{fc1bba32-faaf-4125-a411-7bdb8eb46840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Pieces">
+      <UniqueIdentifier>{261ad855-c380-4167-9fc6-e81f8ec46421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Board">
+      <UniqueIdentifier>{63332ffb-b362-45b1-8800-5f57b406021a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Values">
+      <UniqueIdentifier>{772e5e38-c7e6-4cb6-9f7c-629c1b7a6dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Board">
+      <UniqueIdentifier>{09796464-afc4-465b-9252-7697dacbafd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Pieces">
+      <UniqueIdentifier>{7d2e4565-c86f-42e3-bedb-8159cbae6ea2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Исходные файлы\Values</Filter>
+    </ClCompile>
+    <ClCompile Include="Coordinates.cpp">
+      <Filter>Исходные файлы\Values</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Исходные файлы\Values</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>Исходные файлы\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>Исходные файлы\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Pawn.cpp">
+      <Filter>Исходные файлы\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="King.cpp">
+      <Filter>Исходные файлы\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Исходные файлы\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardVisualizer.cpp">
+      <Filter>Исходные файлы\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Bishop.cpp">
+      <Filter>Исходные файлы\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Rook.cpp">
+      <Filter>Исходные файлы\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Queen.cpp">
+      <Filter>Исходные файлы\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordinatesOffset.cpp">
+      <Filter>Исходные файлы\Values</Filter>
+    </ClCompile>
+    <ClCompile Include="Chess.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearPiece.cpp">
+      <Filter>Исходные файлы\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="InputConverter.cpp">
+      <Filter>Исходные файлы\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleFontChanger.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Color.h">
+      <Filter>Файлы заголовков\Values</Filter>
+    </ClInclude>
+    <ClInclude Include="Coordinates.h">
+      <Filter>Файлы заголовков\Values</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Файлы заголовков\Values</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>Файлы заголовков\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>Файлы заголовков\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Pawn.h">
+      <Filter>Файлы заголовков\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="King.h">
+      <Filter>Файлы заголовков\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Файлы заголовков\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardVisualizer.h">
+      <Filter>Файлы заголовков\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Rook.h">
+      <Filter>Файлы заголовков\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Bishop.h">
+      <Filter>Файлы заголовков\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Queen.h">
+      <Filter>Файлы заголовков\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordinatesOffset.h">
+      <Filter>Файлы заголовков\Values</Filter>
+    </ClInclude>
+    <ClInclude Include="Chess.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearPiece.h">
+      <Filter>Файлы заголовков\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Status.h">
+      <Filter>Файлы заголовков\Values</Filter>
+    </ClInclude>
+    <ClInclude Include="InputConverter.h">
+      <Filter>Файлы заголовков\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleFontChanger.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
